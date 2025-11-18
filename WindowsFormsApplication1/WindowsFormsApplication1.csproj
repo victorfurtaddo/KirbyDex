@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3442D9DF-CF35-48C2-B7C7-17A19F985868}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DetalhesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetalhesForm.Designer.cs">
+      <DependentUpon>DetalhesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home.Designer.cs">
+      <DependentUpon>home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="telaLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="telaLogin.Designer.cs">
+      <DependentUpon>telaLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DetalhesForm.resx">
+      <DependentUpon>DetalhesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home.resx">
+      <DependentUpon>home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="telaLogin.resx">
+      <DependentUpon>telaLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Burning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Dedede.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\MetaKnight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Waddledee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mr. Frosty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bronto Burt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poppy Bros. Jr..png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Knuckle Joe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sir Kibble.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Waddle Doo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gooey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bonkers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kirby.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dedede.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Burning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Waddledee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MetaKnight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kirby_main.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kirby_logo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
